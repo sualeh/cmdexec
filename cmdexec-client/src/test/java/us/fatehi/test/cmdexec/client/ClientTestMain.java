@@ -1,14 +1,14 @@
-package sf.test.cmdexec.client;
+package us.fatehi.test.cmdexec.client;
 
-import static sf.cmdexec.client.Utility.log;
+import static us.fatehi.cmdexec.client.Utility.log;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.List;
 
-import sf.cmdexec.client.Command;
-import sf.cmdexec.client.CommandExecutorClient;
-import sf.cmdexec.client.CommandResult;
+import us.fatehi.cmdexec.client.Command;
+import us.fatehi.cmdexec.client.CommandExecutorClient;
+import us.fatehi.cmdexec.client.CommandResult;
 
 public class ClientTestMain {
 

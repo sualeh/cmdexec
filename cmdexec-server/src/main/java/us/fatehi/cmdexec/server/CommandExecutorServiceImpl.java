@@ -1,7 +1,7 @@
-package sf.cmdexec.server;
+package us.fatehi.cmdexec.server;
 
 
-import static sf.cmdexec.client.Utility.testImplementation;
+import static us.fatehi.cmdexec.client.Utility.testImplementation;
 
 import java.rmi.RemoteException;
 import java.rmi.server.RemoteServer;
@@ -14,9 +14,9 @@ import java.util.concurrent.FutureTask;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
-import sf.cmdexec.client.Command;
-import sf.cmdexec.client.CommandExecutorService;
-import sf.cmdexec.client.CommandResult;
+import us.fatehi.cmdexec.client.Command;
+import us.fatehi.cmdexec.client.CommandExecutorService;
+import us.fatehi.cmdexec.client.CommandResult;
 
 public final class CommandExecutorServiceImpl
   extends RemoteServer

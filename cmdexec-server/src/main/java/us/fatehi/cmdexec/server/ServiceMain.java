@@ -1,13 +1,13 @@
-package sf.cmdexec.server;
+package us.fatehi.cmdexec.server;
 
-import static sf.cmdexec.client.Utility.log;
+import static us.fatehi.cmdexec.client.Utility.log;
 
 import java.net.InetAddress;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
 
-import sf.cmdexec.client.CommandExecutorService;
+import us.fatehi.cmdexec.client.CommandExecutorService;
 
 public final class ServiceMain
 {

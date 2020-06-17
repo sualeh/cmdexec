@@ -1,4 +1,4 @@
-package sf.cmdexec.client;
+package us.fatehi.cmdexec.client;
 
 
 import java.rmi.Remote;

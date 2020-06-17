@@ -1,7 +1,7 @@
-package sf.cmdexec.server;
+package us.fatehi.cmdexec.server;
 
 
-import static sf.cmdexec.client.Utility.log;
+import static us.fatehi.cmdexec.client.Utility.log;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -17,8 +17,8 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.FutureTask;
 
-import sf.cmdexec.client.Command;
-import sf.cmdexec.client.CommandResult;
+import us.fatehi.cmdexec.client.Command;
+import us.fatehi.cmdexec.client.CommandResult;
 
 public final class CommandExecutor
   implements Callable<List<CommandResult>>
