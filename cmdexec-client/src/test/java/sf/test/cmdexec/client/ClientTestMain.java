@@ -1,10 +1,14 @@
-package sf.cmdexec.client;
+package sf.test.cmdexec.client;
 
 import static sf.cmdexec.client.Utility.log;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.List;
+
+import sf.cmdexec.client.Command;
+import sf.cmdexec.client.CommandExecutorClient;
+import sf.cmdexec.client.CommandResult;
 
 public class ClientTestMain {
 
@@ -24,8 +28,8 @@ public class ClientTestMain {
     final CommandExecutorClient cmdExecClient = new CommandExecutorClient(host, port) {
     };
     final List<CommandResult> commandResults = cmdExecClient.executeCommands(
-        new Command("Directory ilsting for qw", "cmd", "/c", "dir", "qw"),
-        new Command("Directory ilsting for current directory", "cmd", "/c", "dir", "/b"g));
+        new Command("Directory listing for qw", "cmd", "/c", "dir", "qw"),
+        new Command("Directory listing for current directory", "cmd", "/c", "dir", "/b"));
     log(commandResults.toString());
   }
 
